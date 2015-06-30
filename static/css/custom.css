@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:700,400);
+h1 {
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:700;
+	font-size:3em;}
+h2 {
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:1.5em;
+	color:#222;
+	padding: 0.7em;
+	border-bottom:1px solid #1b1b1b;
+	font-weight:700;}
+p, ul {
+	font-size:1.2em;}
+a {color:#00f;}
+a:active {color:#f00;}
+a:hover {color:#f00;}
+a:visited {color:#00d;}
+
+.header-item {
+	height:6em;}
+.img-5em-tall {
+	height:5em;}
+.project-image {
+	font-size:5em;
+	line-height:1em;
+	color:#00f;}
+.list-group-item {
+	background:rgba(0, 0, 0, 1, 0.2);}
+.center-icon {
+	text-align:center;}
+.container {
+	background:#fff;}
+html { 
+  background: url(../bgphoto.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	font-family:"Ubuntu","Helvetica Neue",Arial, sans-serif;
+	background:none;}
+
+.buffer {
+	margin-top:3em;
+	margin-bottom:3em;}
+.buffer-sm {
+	margin-top:1em;
+	margin-bottom:1em;}
